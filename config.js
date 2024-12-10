@@ -4,9 +4,9 @@ import { createRequire } from 'module';
 const require = createRequire(import.meta.url);
 
 const config = {
-	SESSION_ID: process.env.SESSION_ID || '',
+	SESSION_ID: process.env.SESSION_ID || 'XSTRO_73_77_77',
 	PREFIX: process.env.PREFIX || '.',
-	SUDO: process.env.SUDO || '',
+	SUDO: process.env.SUDO || '916282524936',
 	BOT_INFO: process.env.BOT_INFO || 'Astro;Xstro_Bot',
 	STICKER_PACK: process.env.STICKER_PACK || 'Xstro;Md',
 	HEROKU_API_KEY: process.env.HEROKU_API_KEY || '',
